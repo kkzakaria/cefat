@@ -50,10 +50,10 @@ Développer une plateforme web moderne, performante et évolutive comprenant :
 - [x] Stockage des demandes dans Supabase.
 - [x] Emails de confirmation (Resend).
 
-## Phase 4 : Espace Étudiant & Authentification [À FAIRE]
-- [ ] Configuration Supabase Auth (Local & Prod).
-- [ ] Pages Login / Inscription / Mot de passe oublié.
-- [ ] Dashboard Étudiant (Vue d'ensemble, Documents).
+## Phase 4 : Espace Étudiant & Authentification [TERMINÉ]
+- [x] Configuration Supabase Auth (Local & Prod).
+- [x] Pages Login / Inscription / Mot de passe oublié.
+- [x] Dashboard Étudiant (Vue d'ensemble, Documents).
 
 ## Phase 5 : Intégration Moodle
 - [ ] Étude de l'intégration (SSO ou Liens directs).
@@ -62,5 +62,6 @@ Développer une plateforme web moderne, performante et évolutive comprenant :
 # 6. JOURNAL DE BORD
 *Ce fichier sera mis à jour à chaque étape majeure.*
 
+- **[27/11/2025]** : Implémentation de la Phase 4. Configuration de Supabase Auth (SSR), création des pages de connexion, inscription, mot de passe oublié et dashboard étudiant. Création de la table `profiles` et triggers associés.
 - **[27/11/2025]** : Finalisation de la Phase 3 (Pré-inscription, Supabase, Resend). Correction des problèmes de build et de linting.
 - **[Date]** : Création du fichier de structure et définition de la roadmap.
