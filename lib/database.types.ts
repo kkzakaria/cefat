@@ -34,6 +34,63 @@ export type Database = {
   }
   public: {
     Tables: {
+      admissions: {
+        Row: {
+          average_grade: string | null
+          created_at: string
+          date_of_birth: string | null
+          email: string
+          first_name: string
+          id: string
+          intake: string
+          last_diploma: string | null
+          last_name: string
+          nationality: string | null
+          phone: string
+          program_id: string
+          school: string | null
+          status: string
+          study_mode: string
+          year_obtained: string | null
+        }
+        Insert: {
+          average_grade?: string | null
+          created_at?: string
+          date_of_birth?: string | null
+          email: string
+          first_name: string
+          id?: string
+          intake: string
+          last_diploma?: string | null
+          last_name: string
+          nationality?: string | null
+          phone: string
+          program_id: string
+          school?: string | null
+          status?: string
+          study_mode: string
+          year_obtained?: string | null
+        }
+        Update: {
+          average_grade?: string | null
+          created_at?: string
+          date_of_birth?: string | null
+          email?: string
+          first_name?: string
+          id?: string
+          intake?: string
+          last_diploma?: string | null
+          last_name?: string
+          nationality?: string | null
+          phone?: string
+          program_id?: string
+          school?: string | null
+          status?: string
+          study_mode?: string
+          year_obtained?: string | null
+        }
+        Relationships: []
+      }
       profiles: {
         Row: {
           full_name: string | null
