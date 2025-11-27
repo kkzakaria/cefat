@@ -39,11 +39,11 @@ Développer une plateforme web moderne, performante et évolutive comprenant :
 - [x] Configuration de la charte graphique (Couleurs, Typographie).
 - [x] Création des composants UI de base (Header, Footer, Boutons).
 
-## Phase 2 : Pages Publiques (Site Vitrine)
-- [ ] Page d'Accueil (Hero, Présentation, Témoignages).
-- [ ] Page "À propos" (Histoire, Équipe).
-- [ ] Page "Formations" (Liste, Détails des cursus).
-- [ ] Page "Contact" (Formulaire, Map).
+## Phase 2 : Pages Publiques (Site Vitrine) [TERMINÉ]
+- [x] Page d'Accueil (Hero, Présentation, Témoignages).
+- [x] Page "À propos" (Histoire, Équipe).
+- [x] Page "Formations" (Liste, Détails des cursus).
+- [x] Page "Contact" (Formulaire, Map).
 
 ## Phase 3 : Fonctionnalités Dynamiques
 - [ ] Formulaire de pré-inscription (Multi-step form).
