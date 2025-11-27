@@ -1,0 +1,106 @@
+/* ============================================
+   CEFAT Business School - Palette de Couleurs
+   ============================================ */
+
+:root {
+  /* Couleurs Primaires */
+  --cefat-red: #E4252D;
+  --cefat-blue: #1E3A5F;
+  
+  /* Couleurs Secondaires */
+  --cefat-blue-light: #4A7BA7;
+  --cefat-red-dark: #B91C23;
+  
+  /* Couleurs Neutres */
+  --cefat-gray: #6B7280;
+  --cefat-gray-light: #F3F4F6;
+  --cefat-white: #FFFFFF;
+  
+  /* Couleurs Fonctionnelles */
+  --color-text-primary: var(--cefat-blue);
+  --color-text-secondary: var(--cefat-gray);
+  --color-background: var(--cefat-white);
+  --color-background-alt: var(--cefat-gray-light);
+  --color-accent: var(--cefat-red);
+  --color-accent-hover: var(--cefat-red-dark);
+  --color-link: var(--cefat-blue-light);
+}
+
+/* ============================================
+   Tailwind CSS Configuration
+   ============================================ */
+/*
+  Pour tailwind.config.js :
+  
+  module.exports = {
+    theme: {
+      extend: {
+        colors: {
+          'cefat': {
+            red: '#E4252D',
+            'red-dark': '#B91C23',
+            blue: '#1E3A5F',
+            'blue-light': '#4A7BA7',
+          },
+          gray: {
+            DEFAULT: '#6B7280',
+            light: '#F3F4F6',
+          }
+        }
+      }
+    }
+  }
+*/
+
+/* ============================================
+   Exemples d'Utilisation
+   ============================================ */
+
+/* Bouton CTA */
+.btn-primary {
+  background-color: var(--cefat-red);
+  color: var(--cefat-white);
+  transition: background-color 0.2s ease;
+}
+
+.btn-primary:hover {
+  background-color: var(--cefat-red-dark);
+}
+
+/* Bouton Secondaire */
+.btn-secondary {
+  background-color: var(--cefat-blue);
+  color: var(--cefat-white);
+}
+
+.btn-secondary:hover {
+  background-color: var(--cefat-blue-light);
+}
+
+/* Navigation */
+.nav-header {
+  background-color: var(--cefat-blue);
+}
+
+.nav-link {
+  color: var(--cefat-white);
+}
+
+/* Titres */
+h1, h2, h3 {
+  color: var(--cefat-blue);
+}
+
+/* Liens */
+a {
+  color: var(--cefat-blue-light);
+}
+
+a:hover {
+  color: var(--cefat-blue);
+}
+
+/* Sections alternées */
+.section-alt {
+  background-color: var(--cefat-gray-light);
+}
