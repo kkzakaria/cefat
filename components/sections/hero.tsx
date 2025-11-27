@@ -20,7 +20,7 @@ export function Hero() {
                     <Button asChild size="lg" className="bg-cefat-red hover:bg-cefat-red-dark text-white text-lg px-8">
                         <Link href="/formations">Découvrir nos formations</Link>
                     </Button>
-                    <Button asChild size="lg" variant="outline" className="text-white border-white hover:bg-white/10 text-lg px-8">
+                    <Button asChild size="lg" variant="outline" className="bg-transparent text-white border-white hover:bg-white/10 text-lg px-8">
                         <Link href="/contact">Nous contacter</Link>
                     </Button>
                 </div>
