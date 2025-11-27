@@ -49,7 +49,7 @@ export default function FormationsPage() {
                     <div className="container mx-auto px-4 text-center">
                         <h1 className="text-4xl md:text-5xl font-bold mb-6">Nos Formations</h1>
                         <p className="text-xl text-cefat-gray-light/90 max-w-2xl mx-auto">
-                            Des programmes d'excellence pour construire votre avenir professionnel.
+                            Des programmes d&apos;excellence pour construire votre avenir professionnel.
                         </p>
                     </div>
                 </section>

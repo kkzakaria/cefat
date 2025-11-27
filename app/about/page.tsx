@@ -13,7 +13,7 @@ export default function AboutPage() {
                     <div className="container mx-auto px-4 text-center">
                         <h1 className="text-4xl md:text-5xl font-bold mb-6">À Propos de CEFAT</h1>
                         <p className="text-xl text-cefat-gray-light/90 max-w-2xl mx-auto">
-                            Une école d'excellence dédiée à la formation des leaders de demain.
+                            Une école d&apos;excellence dédiée à la formation des leaders de demain.
                         </p>
                     </div>
                 </section>
@@ -25,7 +25,7 @@ export default function AboutPage() {
                             <div>
                                 <h2 className="text-3xl font-bold text-cefat-blue mb-6">Notre Mission</h2>
                                 <p className="text-cefat-gray mb-6 text-lg">
-                                    CEFAT Business School a pour mission de former des cadres compétents, intègres et innovants, capables de relever les défis économiques et sociaux de l'Afrique et du monde.
+                                    CEFAT Business School a pour mission de former des cadres compétents, intègres et innovants, capables de relever les défis économiques et sociaux de l&apos;Afrique et du monde.
                                 </p>
                                 <ul className="space-y-4">
                                     {[
@@ -68,7 +68,7 @@ export default function AboutPage() {
                             <div className="relative border-l-4 border-cefat-red pl-8 text-left ml-4 md:ml-0">
                                 <h3 className="text-xl font-bold text-cefat-blue">2020 - Digitalisation</h3>
                                 <p className="text-cefat-gray mt-2">
-                                    Lancement de la plateforme d'apprentissage en ligne et des certifications digitales.
+                                    Lancement de la plateforme d&apos;apprentissage en ligne et des certifications digitales.
                                 </p>
                             </div>
                         </div>

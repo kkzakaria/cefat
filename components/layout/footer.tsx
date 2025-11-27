@@ -36,7 +36,7 @@ export function Footer() {
                     <div className="space-y-4">
                         <h4 className="text-lg font-semibold">Contact</h4>
                         <ul className="space-y-2 text-sm text-cefat-gray-light/80">
-                            <li>Abidjan, Côte d'Ivoire</li>
+                            <li>Abidjan, Côte d&apos;Ivoire</li>
                             <li>info@cefat-bs.ci</li>
                             <li>+225 07 07 07 07 07</li>
                         </ul>

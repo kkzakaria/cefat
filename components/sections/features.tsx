@@ -14,7 +14,7 @@ const features = [
     {
         icon: Trophy,
         title: "Diplômes Reconnus",
-        description: "Obtenez des certifications valorisées par les entreprises et l'État.",
+        description: "Obtenez des certifications valorisées par les entreprises et l&apos;État.",
     },
     {
         icon: Globe,
@@ -32,7 +32,7 @@ export function Features() {
                         Pourquoi choisir CEFAT ?
                     </h2>
                     <p className="text-cefat-gray text-lg max-w-2xl mx-auto">
-                        Nous nous engageons à offrir un environnement d'apprentissage stimulant et professionnel.
+                        Nous nous engageons à offrir un environnement d&apos;apprentissage stimulant et professionnel.
                     </p>
                 </div>
 

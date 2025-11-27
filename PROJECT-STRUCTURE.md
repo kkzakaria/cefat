@@ -45,12 +45,12 @@ Développer une plateforme web moderne, performante et évolutive comprenant :
 - [x] Page "Formations" (Liste, Détails des cursus).
 - [x] Page "Contact" (Formulaire, Map).
 
-## Phase 3 : Fonctionnalités Dynamiques
-- [ ] Formulaire de pré-inscription (Multi-step form).
-- [ ] Stockage des demandes dans Supabase.
-- [ ] Emails de confirmation (Resend ou autre).
+## Phase 3 : Fonctionnalités Dynamiques [TERMINÉ]
+- [x] Formulaire de pré-inscription (Multi-step form).
+- [x] Stockage des demandes dans Supabase.
+- [x] Emails de confirmation (Resend).
 
-## Phase 4 : Espace Étudiant & Authentification
+## Phase 4 : Espace Étudiant & Authentification [À FAIRE]
 - [ ] Configuration Supabase Auth (Local & Prod).
 - [ ] Pages Login / Inscription / Mot de passe oublié.
 - [ ] Dashboard Étudiant (Vue d'ensemble, Documents).
@@ -62,4 +62,5 @@ Développer une plateforme web moderne, performante et évolutive comprenant :
 # 6. JOURNAL DE BORD
 *Ce fichier sera mis à jour à chaque étape majeure.*
 
+- **[27/11/2025]** : Finalisation de la Phase 3 (Pré-inscription, Supabase, Resend). Correction des problèmes de build et de linting.
 - **[Date]** : Création du fichier de structure et définition de la roadmap.

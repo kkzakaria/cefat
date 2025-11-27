@@ -24,7 +24,7 @@ export function Testimonials() {
                             </div>
                         </div>
                         <p className="text-cefat-gray italic">
-                            "Une formation de qualité qui m'a permis de décrocher mon premier emploi avant même la fin de mon stage. Les intervenants sont très professionnels."
+                            &quot;Une formation de qualité qui m&apos;a permis de décrocher mon premier emploi avant même la fin de mon stage. Les intervenants sont très professionnels.&quot;
                         </p>
                     </div>
 
@@ -40,7 +40,7 @@ export function Testimonials() {
                             </div>
                         </div>
                         <p className="text-cefat-gray italic">
-                            "L'environnement d'étude est excellent. J'ai particulièrement apprécié l'approche pratique des cours et la disponibilité des professeurs."
+                            &quot;L&apos;environnement d&apos;étude est excellent. J&apos;ai particulièrement apprécié l&apos;approche pratique des cours et la disponibilité des professeurs.&quot;
                         </p>
                     </div>
 
@@ -56,7 +56,7 @@ export function Testimonials() {
                             </div>
                         </div>
                         <p className="text-cefat-gray italic">
-                            "CEFAT m'a donné les outils nécessaires pour lancer ma propre entreprise. Le réseau des anciens est aussi un atout majeur."
+                            &quot;CEFAT m&apos;a donné les outils nécessaires pour lancer ma propre entreprise. Le réseau des anciens est aussi un atout majeur.&quot;
                         </p>
                     </div>
                 </div>

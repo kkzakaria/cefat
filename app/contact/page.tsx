@@ -26,7 +26,7 @@ export default function ContactPage() {
                                 <div>
                                     <h2 className="text-2xl font-bold text-cefat-blue mb-6">Nos Coordonnées</h2>
                                     <p className="text-cefat-gray mb-8">
-                                        N'hésitez pas à nous rendre visite ou à nous contacter par téléphone ou email.
+                                        N&apos;hésitez pas à nous rendre visite ou à nous contacter par téléphone ou email.
                                     </p>
                                 </div>
 
@@ -39,7 +39,7 @@ export default function ContactPage() {
                                             <h3 className="font-semibold text-cefat-blue">Adresse</h3>
                                             <p className="text-cefat-gray">
                                                 Cocody Riviera 2, Abidjan<br />
-                                                Côte d'Ivoire
+                                                Côte d&apos;Ivoire
                                             </p>
                                         </div>
                                     </div>
@@ -71,7 +71,7 @@ export default function ContactPage() {
                                             <Clock className="h-5 w-5" />
                                         </div>
                                         <div>
-                                            <h3 className="font-semibold text-cefat-blue">Heures d'ouverture</h3>
+                                            <h3 className="font-semibold text-cefat-blue">Heures d&apos;ouverture</h3>
                                             <p className="text-cefat-gray">Lundi - Vendredi : 08h00 - 18h00</p>
                                             <p className="text-cefat-gray">Samedi : 09h00 - 13h00</p>
                                         </div>

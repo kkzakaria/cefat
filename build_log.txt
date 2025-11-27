@@ -1,0 +1,28 @@
+
+> cefat@0.1.0 build C:\CODES\cefat
+> next build
+
+   Ôû▓ Next.js 16.0.5 (Turbopack)
+
+   Creating an optimized production build ...
+ Ô£ô Compiled successfully in 3.7s
+   Running TypeScript ...
+Failed to compile.
+
+./lib/schemas.ts:21:15
+Type error: No overload matches this call.
+  Overload 1 of 2, '(values: readonly ["SEPTEMBER", "JANUARY"], params?: string | { error?: string | $ZodErrorMap<$ZodIssueInvalidValue<unknown>> | undefined; message?: string | undefined; } | undefined): ZodEnum<...>', gave the following error.
+    Object literal may only specify known properties, and 'required_error' does not exist in type '{ error?: string | $ZodErrorMap<$ZodIssueInvalidValue<unknown>> | undefined; message?: string | undefined; }'.
+  Overload 2 of 2, '(entries: Readonly<Record<string, EnumValue>>, params?: string | { error?: string | $ZodErrorMap<$ZodIssueInvalidValue<unknown>> | undefined; message?: string | undefined; } | undefined): ZodEnum<...>', gave the following error.
+    Argument of type 'string[]' is not assignable to parameter of type 'Readonly<Record<string, EnumValue>>'.
+      Index signature for type 'string' is missing in type 'string[]'.
+
+  19 | export const programSelectionSchema = z.object({
+  20 |     programId: z.string().min(1, "Veuillez s├®lectionner une formation"),
+> 21 |     intake: z.enum(["SEPTEMBER", "JANUARY"], {
+     |               ^
+  22 |         required_error: "Veuillez s├®lectionner une rentr├®e",
+  23 |     }),
+  24 |     studyMode: z.enum(["INITIAL", "ALTERNANCE"], {
+Next.js build worker exited with code: 1 and signal: null
+ÔÇëELIFECYCLEÔÇë Command failed with exit code 1.

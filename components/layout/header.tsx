@@ -32,8 +32,8 @@ export function Header() {
                     <Link href="/login" className="text-sm font-medium text-cefat-blue hover:underline">
                         Espace Étudiant
                     </Link>
-                    <Button className="bg-cefat-red hover:bg-cefat-red-dark text-white">
-                        Pré-inscription
+                    <Button asChild className="bg-cefat-red hover:bg-cefat-red-dark text-white">
+                        <Link href="/admission">Pré-inscription</Link>
                     </Button>
                 </div>
 
